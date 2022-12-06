@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+body {
+  background-color: rgb(57, 56, 56);
+  color: aliceblue;
+}
 
 header h1 {
   font-size: 2.5em;

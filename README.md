@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+FUNCTIONALITY
+
+1. Render song cards album cover, song name, and song artist.
+2. Search option for song artist
+3. Be able to link vibe (music for studying, music for partying)
+4. If you click on a song, it will link you to more information about it
+5. Favorite songs and it makes a new tab for selected favorites?
