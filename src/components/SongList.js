@@ -3,13 +3,13 @@ import SongCard from "./SongCard";
 
 function SongList({songs}) {
 
-    const listOfSongs = songs?.map((song) => {
+    const mappedSongs = songs?.map((song) => {
       return <SongCard key={song.id} title={song.title} artist={song.artist} />
     })
 
   return (
     <div>
-        <ul className="cards">{listOfSongs}</ul>
+        <ul className="cards">{mappedSongs}</ul>
     </div>
   );
 }
