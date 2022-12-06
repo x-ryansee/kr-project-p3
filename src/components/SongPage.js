@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from "react";
 import SongList from "./SongList";
 import Search from "./Search";
+import About from "./About"
 const API="http://localhost:3000/songs"
 
 function SongPage() {
@@ -21,6 +22,7 @@ function SongPage() {
     <main>
       <Search search ={search} setSearch={setSearch}/>
       <SongList songs={displayedSongs}/>
+      <About />
     </main>
   );
 }
