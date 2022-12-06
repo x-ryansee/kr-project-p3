@@ -18,7 +18,7 @@ body {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 4.5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
@@ -106,6 +106,7 @@ input {
   border-bottom: 2px solid gray;
   transition: all 0.2s;
   width: 100%;
+  border-radius:23px;
 }
 
 
@@ -120,6 +121,8 @@ input:focus {
 
 .card {
   margin: 1rem;
+  box-shadow: 5px 6px 4px rgb(67, 67, 67);
+
 }
 
 .card img {
