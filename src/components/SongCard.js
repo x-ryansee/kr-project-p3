@@ -1,18 +1,13 @@
 
 
-function SongCard({song}) {
-  const { title, artist, image} = song
+function SongCard({title, artist, image}) {
+
     
     return (
       <li className="card">
-        <img src={"https://via.placeholder.com/400"} alt={title} />
+        <img src={image} alt={title} />
         <h4>{title}</h4>
         <p>Artist: {artist}</p>
-        {true ? (
-          <button className="primary">View</button>
-        ) : (
-          <button>Favorite</button>
-        )}
       </li>
     );
   }
