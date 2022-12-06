@@ -1,6 +1,6 @@
 
 
-function SongCard({title, artist, image}) {
+function SongCard({title, artist, image, audio}) {
 
     
     return (
@@ -8,6 +8,7 @@ function SongCard({title, artist, image}) {
         <img src={image} alt={title} />
         <h4>{title}</h4>
         <p>Artist: {artist}</p>
+        {/* <audio src={audio} controls></audio> */}
       </li>
     );
   }
