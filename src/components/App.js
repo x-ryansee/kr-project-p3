@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import Search from "./Search"
-import SongContainer from "./SongContainer";
+import SongPage from "./SongPage";
 
 function App() {
     return (
         <div className="app">
             <Header/>
             <Search/>
-            <SongContainer/>
+            <SongPage/>
         </div>
     )
 }

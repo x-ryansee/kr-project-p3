@@ -2,48 +2,48 @@
     "songs": [
       {
         "id": 1,
-        "name":"",
+        "title":"",
         "image": "https://images.radiox.co.uk/images/67203?crop=16_9&width=660&relax=1&signature=55LkrqcNZrAY4toJIVC2ULMZ_AU=",
         "artist": ""
 
       },
       {
         "id": 2,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""
 
       },
       {
         "id": 3,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""
       },
       {
         "id": 4,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""
 
       },
       {
         "id": 5,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""
 
       },
       {
         "id": 6,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""
 
       },
       {
         "id": 7,
-        "name":"",
+        "title":"",
         "image": "",
         "artist": ""   
       }
