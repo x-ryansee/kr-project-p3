@@ -1,18 +1,14 @@
 
 
-function SongCard({song}) {
-  const { title, artist, image} = song
+function SongCard({title, artist, image, audio}) {
+
     
     return (
       <li className="card">
-        <img src={"https://via.placeholder.com/400"} alt={title} />
+        <img src={image} alt={title} />
         <h4>{title}</h4>
         <p>Artist: {artist}</p>
-        {true ? (
-          <button className="primary">View</button>
-        ) : (
-          <button>Favorite</button>
-        )}
+        {/* <audio src={audio} controls></audio> */}
       </li>
     );
   }
@@ -20,22 +16,3 @@ function SongCard({song}) {
   export default SongCard;
   
 
-
-// function SongCard({}) {
-
-    
-//   return (
-//     <li className="card">
-//       <img src={"https://via.placeholder.com/400"} alt={"song name"} />
-//       <h4>{"song name"}</h4>
-//       <p>Artist: {"artist name"}</p>
-//       {true ? (
-//         <button className="primary">View</button>
-//       ) : (
-//         <button>Favorite</button>
-//       )}
-//     </li>
-//   );
-// }
-
-// export default SongCard;

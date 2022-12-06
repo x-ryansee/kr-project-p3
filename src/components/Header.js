@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <h1>
-                Music??
+                Music?
             </h1>
         </header>
     )
