@@ -1,0 +1,51 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "name":"",
+        "image": "",
+        "artist": ""
+
+      },
+      {
+        "id": 2,
+        "name":"",
+        "image": "",
+        "artist": ""
+
+      },
+      {
+        "id": 3,
+        "name":"",
+        "image": "",
+        "artist": ""
+      },
+      {
+        "id": 4,
+        "name":"",
+        "image": "",
+        "artist": ""
+
+      },
+      {
+        "id": 5,
+        "name":"",
+        "image": "",
+        "artist": ""
+
+      },
+      {
+        "id": 6,
+        "name":"",
+        "image": "",
+        "artist": ""
+
+      },
+      {
+        "id": 7,
+        "name":"",
+        "image": "",
+        "artist": ""   
+      }
+    ]
+  }
