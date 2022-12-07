@@ -4,14 +4,16 @@
         "id": 1,
         "artist": "Jenevieve",
         "title":"Midnight Charm",
-        "image": "https://media.pitchfork.com/photos/613fd8678ee76acc130e6e01/1:1/w_3000,h_3000,c_limit/100000x100000-999.jpeg"
+        "image": "https://media.pitchfork.com/photos/613fd8678ee76acc130e6e01/1:1/w_3000,h_3000,c_limit/100000x100000-999.jpeg",
+        "genre": "Party"
     
       },
       {
         "id": 2,
         "artist":"Skylar Spence",
         "title": "Fall Harder",
-        "image": "https://www.carparkrecords.com/wp-content/uploads/2014/07/SkylarSingle900CVR.jpg"
+        "image": "https://www.carparkrecords.com/wp-content/uploads/2014/07/SkylarSingle900CVR.jpg",
+        "genre": "Party"
         
       },
       {
@@ -19,13 +21,15 @@
         "id": 3,
         "artist": "Vacation Manor",
         "title": "Can't Run Forever",
-        "image": "https://i.scdn.co/image/ab67616d0000b273f3bb7d8f6388fddbebf393a9"
+        "image": "https://i.scdn.co/image/ab67616d0000b273f3bb7d8f6388fddbebf393a9",
+        "genre": "Study"
       },
       {
         "id": 4,
         "artist": "John Legend feat.Miguel",
         "title":"Overload",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg14D_BIgbWwLnwvXhvRKji6DQ8tD-oA1hd0-F5KjRjyA7k4QnnCotDlJRbU5mnxinwm8&usqp=CAU"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg14D_BIgbWwLnwvXhvRKji6DQ8tD-oA1hd0-F5KjRjyA7k4QnnCotDlJRbU5mnxinwm8&usqp=CAU",
+        "genre": "Study"
       
 
       },
@@ -33,14 +37,16 @@
         "id": 5,
         "artist": "Kaskade feat.Soran",
         "title":"Jingle Bells",
-        "image": "https://m.media-amazon.com/images/I/41OS0T05gpL._UXNaN_FMjpg_QL85_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41OS0T05gpL._UXNaN_FMjpg_QL85_.jpg",
+        "genre": "Party"
         
       },
       {
         "id": 6,
         "artist": "Vansire",
         "title":"Metamodernity",
-        "image": "https://images.genius.com/f58b6f18702805dc86e71bbfdcb84a35.700x700x1.jpg"
+        "image": "https://images.genius.com/f58b6f18702805dc86e71bbfdcb84a35.700x700x1.jpg",
+        "genre": "Study"
         
 
       },
@@ -48,14 +54,16 @@
         "id": 7,
         "artist": "The Beatles",
         "title":"Come Together",
-        "image": "https://i1.sndcdn.com/artworks-000513517536-z06dml-t500x500.jpg"
+        "image": "https://i1.sndcdn.com/artworks-000513517536-z06dml-t500x500.jpg",
+        "genre": "Party"
           
       },
       {
         "id": 8,
         "artist": "LoFi Beats",
         "title":"Study",
-        "image": "https://assets.rebelmouse.io/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMDA5MTYxNy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTcwNjY1MDQ4NX0.n2bJdMKUF4RAuGN4-J-LrXlpgWdpBd9E8hNYXpEhEwk/img.jpg?width=1200&height=600&quality=85&coordinates=0%2C36%2C0%2C36",
+        "image": "https://i1.sndcdn.com/artworks-IKIVoW9aw5BJuGgl-EGnarw-t500x500.jpg",
+        "genre": "Study",
         "songURL": "videoplayback (1).mp3"
           
       },
@@ -63,14 +71,16 @@
         "id": 9,
         "artist": "Surfaces",
         "title":"Come With Me",
-        "image": "https://i.scdn.co/image/ab67616d0000b273d87dd9780854f07967cae8ae"
+        "image": "https://i.scdn.co/image/ab67616d0000b273d87dd9780854f07967cae8ae",
+        "genre": "Study"
           
       },
       {
         "id": 10,
         "artist": "Guns n Roses",
         "title":"Sweet Child O Mine",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c"
+        "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
+        "genre": "Party"
           
       }
     ]
