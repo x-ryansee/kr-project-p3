@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import SongList from "./SongList";
 import Search from "./Search";
-import About from "./About"
+import About from "./pages/About"
 const API="http://localhost:3000/songs"
 
 function SongPage() {

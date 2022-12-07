@@ -5,6 +5,7 @@ function Home() {
 
     return(
         <div>
+            THIS SHOULD LINK TO A HOME PAGE (IS THAT APP.JS?)
             <Header />
             <SongPage />
         </div>
