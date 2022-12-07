@@ -10,6 +10,7 @@ function SongList({songs}) {
        artist={song.artist} 
        image={song.image}
        genre={song.genre}
+       songURL={song.songURL}
        />
     })
 
