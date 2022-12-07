@@ -13,8 +13,12 @@ code {
 }
 
 body {
-  background-color: rgb(131, 130, 130);
+  /* background-color: #00008B; */
   color: rgb(255, 255, 255);
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #78a59d 0%, #5e6fbc 100%);
+  
+  
 }
 
 header h1 {
@@ -179,4 +183,47 @@ button.Play {
   border: 3px solid #ffffff;
   border-radius:10px;
   display:block;
+}
+
+root{
+  text-align: center;
+  position:absolute;
+
+}
+h5 {
+  color:rgb(10, 0, 0);
+  font-size: 70px;
+  text-align: center;
+  margin: 0px auto;
+  position:relative;
+  bottom:-60px;
+
+}
+h6 {
+  color:rgb(255, 255, 255);
+  font-size: 70px;
+  text-align: center;
+  margin: 0px auto;
+  position:relative;
+  bottom:-60px;
+
+}
+p1 {
+  color:rgb(255, 255, 255);
+  font-size: 45px;
+  margin: 0px auto;
+  position: relative;
+  top:140px;
+  left:4px;
+  
+
+
+}
+
+p2{
+  font-size: 25px;
+  margin: 0px auto;
+  position:relative;
+  bottom:-270px;
+  left: -50px;
 }
