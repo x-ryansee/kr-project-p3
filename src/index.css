@@ -23,6 +23,7 @@ header h1 {
   text-align: center;
   padding: 0.5rem 0;
   display: inline-flex;
+  
 }
 
 .searchbar {
@@ -57,7 +58,12 @@ button {
   border: none;
   cursor: pointer;
 }
-
+.navigation{
+  position: relative;
+  text-align: left;
+  padding-left: 390px;
+  bottom: -26px;
+}
 button.primary {
   background-color: var(--green);
   color: white;
@@ -71,10 +77,21 @@ button.primary {
 header h1 {
   font-size: 2.5em;
   font-weight: 900;
-  text-align: center;
+  position: relative;
+  text-align: absolute;
   padding: 0.5rem 0;
-}
+  text-shadow: 1px 1px 2px rgb(97, 97, 97);
 
+}
+div{
+    text-align: center;
+    font-size: 20px;
+}
+label{
+  text-align: left;
+ position: relative;
+ bottom: 10px;
+}
 .logo {
   font-size: 1.25em;
   padding-left: 0.5rem;
