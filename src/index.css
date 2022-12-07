@@ -211,24 +211,24 @@ h6 {
   bottom:-60px;
 
 }
-p1 {
+.about-p1 {
   color:rgb(255, 255, 255);
-  font-size: 45px;
+  font-size: 40px;
   margin: 0px auto;
   position: relative;
-  top:140px;
-  left:4px;
+  top:300px;
+  left:80px;
+  position: absolute;
+  text-align: left;
   
-
-
 }
 
 p2{
   font-size: 25px;
   margin: 0px auto;
   position:relative;
-  bottom:-270px;
-  left: -50px;
+  bottom:-460px;
+  left: -10px;
 }
 .button{
   color: rgb(255, 255, 255);
