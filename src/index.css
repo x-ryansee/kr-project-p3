@@ -18,7 +18,7 @@ body {
 }
 
 header h1 {
-  font-size: 4.5em;
+  font-size: 8em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
@@ -69,10 +69,12 @@ button.primary {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
+  display: inline-flex;
+  
 }
 
 .logo {
@@ -162,4 +164,11 @@ button.Play {
   border: 3px solid #ffffff;
   border-radius:10px;
   display:block;
+}
+
+.navigation {
+  margin-top: 50px;
+  margin: auto;
+  font-size: larger;
+  font-weight: 200;
 }
