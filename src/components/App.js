@@ -7,6 +7,7 @@ import PartyMusic from "./pages/PartyMusic";
 import Home from "./pages/Home"
 import About from "./pages/About";
 import SongPage from "./SongPage";
+import SongCard from "./SongCard";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/">
-                    <SongPage />
+                <Route path="/songs/:id">
+                    <SongCard />
                 </Route>
             </Switch>
         </div>
