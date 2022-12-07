@@ -26,6 +26,3 @@ function SongCard({id, title, artist, image, songURL, Link}) {
   }
   
   export default SongCard;
-  
-
-st
