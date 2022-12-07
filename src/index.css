@@ -155,3 +155,11 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
+
+button.Play {
+  position:relative;
+  right:-87px;
+  border: 3px solid #ffffff;
+  border-radius:10px;
+  display:block;
+}
