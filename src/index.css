@@ -63,10 +63,13 @@ button {
   cursor: pointer;
 }
 .navigation{
+  font-size:35px;
   position: relative;
   text-align: left;
   padding-left: 390px;
   bottom: -26px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+
 }
 button.primary {
   background-color: var(--green);
@@ -226,4 +229,7 @@ p2{
   position:relative;
   bottom:-270px;
   left: -50px;
+}
+.button{
+  color: rgb(255, 255, 255);
 }
