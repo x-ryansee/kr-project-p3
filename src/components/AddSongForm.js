@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function AddSongForm( { newSong }) {
 
-    const initialState = {title:"", artist:"", image:""}
+    const initialState = {title:"", artist:"", image:"", songURL:""}
     const [songData, setSongData] = useState (initialState)
 
 function handleChange(e) {
@@ -36,6 +36,7 @@ function handlePost(e) {
                   <input  onChange={handleChange} value={songData.title} type="text" name="title" placeholder="song title"/>
                   <input  onChange={handleChange} value={songData.artist} type="text" name="artist" placeholder="artist" />
                   <input  onChange={handleChange} value={songData.image} type="text" name="image" placeholder="image" />
+                  <input  onChange={handleChange} value={songData.songURL} type="text" name="songURL" placeholder="video URL" />
                 </div>
                 <button className="ui button" type="submit">
                   Add Song
