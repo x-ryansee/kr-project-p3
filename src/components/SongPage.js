@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import SongList from "./SongList";
 import Search from "./Search";
-import About from "./About"
+import AddSongForm from "./AddSongForm";
 const API="http://localhost:3000/songs"
 
 function SongPage() {
@@ -18,11 +18,15 @@ function SongPage() {
     return song.title.toLowerCase().includes(search.toLowerCase());
   })
 
+  function newSong(obj) {
+    setSongs([...songs, obj]);
+  }
+
   return (
     <main>
       <Search search ={search} setSearch={setSearch}/>
       <SongList songs={displayedSongs}/>
-      <About />
+      <AddSongForm newSong={newSong}/>
     </main>
   );
 }

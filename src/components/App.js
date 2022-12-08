@@ -1,18 +1,24 @@
 import { Switch } from "react-router-dom"
 import { Route } from "react-router-dom";
 import React from "react";
-import Header from "./Header";
+// import Header from "./Header";
+import StudyMusic from "./pages/StudyMusic";
+import PartyMusic from "./pages/PartyMusic";
 import Home from "./pages/Home"
 import About from "./pages/About";
 import SongPage from "./SongPage";
+import SongCard from "./SongCard";
 
 
 function App() {
     return (
         <div className="app">
             <Switch>
-                <Route path="/header">
-                    <Header/>
+                <Route path="/studyMusic">
+                    <StudyMusic/>
+                </Route>
+                <Route path="/partyMusic">
+                    <PartyMusic/>
                 </Route>
                 <Route exact path="/">
                     <Home />
@@ -20,8 +26,8 @@ function App() {
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/">
-                    <SongPage />
+                <Route path="/songs/:id">
+                    <SongCard />
                 </Route>
             </Switch>
         </div>

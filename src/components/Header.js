@@ -1,19 +1,25 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 
 function Header() {
     const handleClick = e => {
-            console.log(e.target.id);
+            console.log(`localhost:3001${e.target.id}`);
 
     }
 
     return (
         <header>
             <div>
-                <Route to="./studymusic">
-                    <h1 style={{color: "red"}} id="/studymusic" onClick={handleClick}>Study</h1>
+                <Route to="/studymusic">
+                    <Link to="/studymusic">
+                        <h1 style={{color: "red"}} id="/studymusic" onClick={handleClick}>Study</h1>
+                    </Link>
                 </Route>
-                    <h1 style={{color: "blue"}} id="/partymusic" onClick={handleClick}>Party</h1>
+                <Route to="/partymusic">
+                    <Link to="/partymusic">
+                        <h1 style={{color: "blue"}} id="/partymusic" onClick={handleClick}>Party</h1>
+                    </Link>
+                </Route>
             </div>
         </header>
     )
