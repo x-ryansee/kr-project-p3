@@ -1,6 +1,7 @@
 import React, {useState} from "react";
+import SongList from "./SongList";
 
-function SongCard({title, artist, image, songURL}) {
+function SongCard({id, title, artist, image, songURL, Link}) {
 
     // const [toggle, setToggle] = useState(false)
     // console.log(toggle)
@@ -17,11 +18,11 @@ function SongCard({title, artist, image, songURL}) {
         </div>
         <h4>{title}</h4>
         <p>Artist: {artist}</p>
-        <button  className='Play'>Play</button>
+        {/* <Link to={`songs/${id}`}> */}
+          <button className='Play'>Play</button>
+        {/* </Link> */}
       </li>
     );
   }
   
   export default SongCard;
-  
-

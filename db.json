@@ -1,96 +1,84 @@
 {
-    "songs": [
-      {
-        "id": 1,
-        "artist": "Jenevieve",
-        "title":"Midnight Charm",
-        "image": "https://media.pitchfork.com/photos/613fd8678ee76acc130e6e01/1:1/w_3000,h_3000,c_limit/100000x100000-999.jpeg",
-        "genre": "Party",
-        "songURL": "https://www.youtube.com/embed/s2uFQB_V7o4"
-    
-      },
-      {
-        "id": 2,
-        "artist":"Skylar Spence",
-        "title": "Fall Harder",
-        "image": "https://www.carparkrecords.com/wp-content/uploads/2014/07/SkylarSingle900CVR.jpg",
-        "genre": "Party",
-        "songURL": "https://www.youtube.com/embed/aed4G0cQCNQ"
-        
-      },
-      {
-    
-        "id": 3,
-        "artist": "Vacation Manor",
-        "title": "Can't Run Forever",
-        "image": "https://i.scdn.co/image/ab67616d0000b273f3bb7d8f6388fddbebf393a9",
-        "genre": "Study",
-        "songURL": "https://www.youtube.com/embed/38ZPaGnqOr0"
-      },
-      {
-        "id": 4,
-        "artist": "John Legend feat.Miguel",
-        "title":"Overload",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg14D_BIgbWwLnwvXhvRKji6DQ8tD-oA1hd0-F5KjRjyA7k4QnnCotDlJRbU5mnxinwm8&usqp=CAU",
-        "genre": "Study",
-        "songURL": "https://www.youtube.com/embed/x7A6e9pUtq0"
-      
-
-      },
-      {
-        "id": 5,
-        "artist": "Kaskade feat.Soran",
-        "title":"Jingle Bells",
-        "image": "https://m.media-amazon.com/images/I/41OS0T05gpL._UXNaN_FMjpg_QL85_.jpg",
-        "genre": "Party",
-        "songURL": "https://www.youtube.com/embed/6yg6rlGyP6k"
-        
-      },
-      {
-        "id": 6,
-        "artist": "Vansire",
-        "title":"Metamodernity",
-        "image": "https://images.genius.com/f58b6f18702805dc86e71bbfdcb84a35.700x700x1.jpg",
-        "genre": "Study",
-        "songURL": "https://www.youtube.com/embed/bR9pcz7NzTk"
-        
-
-      },
-      {
-        "id": 7,
-        "artist": "The Beatles",
-        "title":"Come Together",
-        "image": "https://i1.sndcdn.com/artworks-000513517536-z06dml-t500x500.jpg",
-        "genre": "Party",
-        "songURL": "https://www.youtube.com/embed/45cYwDMibGo"
-          
-      },
-      {
-        "id": 8,
-        "artist": "The Bootleg Boy",
-        "title":"Lofi Songs for Slow Days",
-        "image": "https://i1.sndcdn.com/artworks-IKIVoW9aw5BJuGgl-EGnarw-t500x500.jpg",
-        "genre": "Study",
-        "songURL": "https://www.youtube.com/embed/AzV77KFsLn4"
-          
-      },
-      {
-        "id": 9,
-        "artist": "Surfaces",
-        "title":"Come With Me",
-        "image": "https://i.scdn.co/image/ab67616d0000b273d87dd9780854f07967cae8ae",
-        "genre": "Study",
-        "songURL": "https://www.youtube.com/embed/MrEe-rB_pXw"
-          
-      },
-      {
-        "id": 10,
-        "artist": "Guns n Roses",
-        "title":"Sweet Child O Mine",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
-        "genre": "Party",
-        "songURL": "https://www.youtube.com/embed/1w7OgIMMRc4"
-          
-      }
-    ]
-  }
+  "songs": [
+    {
+      "id": 1,
+      "artist": "Jenevieve",
+      "title": "Midnight Charm",
+      "image": "https://media.pitchfork.com/photos/613fd8678ee76acc130e6e01/1:1/w_3000,h_3000,c_limit/100000x100000-999.jpeg",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/s2uFQB_V7o4"
+    },
+    {
+      "id": 2,
+      "artist": "Skylar Spence",
+      "title": "Fall Harder",
+      "image": "https://www.carparkrecords.com/wp-content/uploads/2014/07/SkylarSingle900CVR.jpg",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/aed4G0cQCNQ"
+    },
+    {
+      "id": 3,
+      "artist": "Vacation Manor",
+      "title": "Can't Run Forever",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3bb7d8f6388fddbebf393a9",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/38ZPaGnqOr0"
+    },
+    {
+      "id": 4,
+      "artist": "John Legend feat.Miguel",
+      "title": "Overload",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg14D_BIgbWwLnwvXhvRKji6DQ8tD-oA1hd0-F5KjRjyA7k4QnnCotDlJRbU5mnxinwm8&usqp=CAU",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/x7A6e9pUtq0"
+    },
+    {
+      "id": 5,
+      "artist": "Kaskade feat.Soran",
+      "title": "Jingle Bells",
+      "image": "https://m.media-amazon.com/images/I/41OS0T05gpL._UXNaN_FMjpg_QL85_.jpg",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/6yg6rlGyP6k"
+    },
+    {
+      "id": 6,
+      "artist": "Vansire",
+      "title": "Metamodernity",
+      "image": "https://images.genius.com/f58b6f18702805dc86e71bbfdcb84a35.700x700x1.jpg",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/bR9pcz7NzTk"
+    },
+    {
+      "id": 7,
+      "artist": "The Beatles",
+      "title": "Come Together",
+      "image": "https://i1.sndcdn.com/artworks-000513517536-z06dml-t500x500.jpg",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/45cYwDMibGo"
+    },
+    {
+      "id": 8,
+      "artist": "The Bootleg Boy",
+      "title": "Lofi Songs for Slow Days",
+      "image": "https://i1.sndcdn.com/artworks-IKIVoW9aw5BJuGgl-EGnarw-t500x500.jpg",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/AzV77KFsLn4"
+    },
+    {
+      "id": 9,
+      "artist": "Surfaces",
+      "title": "Come With Me",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d87dd9780854f07967cae8ae",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/MrEe-rB_pXw"
+    },
+    {
+      "id": 10,
+      "artist": "Guns n Roses",
+      "title": "Sweet Child O Mine",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/1w7OgIMMRc4"
+    }
+  ]
+}
