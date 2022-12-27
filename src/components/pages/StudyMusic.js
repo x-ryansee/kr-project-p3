@@ -1,32 +1,24 @@
-import React,{useState, useEffect} from "react";
-import SongList from "../SongList";
-import Search from "../Search";
-const API="http://localhost:3000/songs"
+// import React,{useState, useEffect} from "react";
+// import MenuList from "../MenuList";
+// import Search from "../Search";
+// const API="http://localhost:3000/items"
 
-function StudyMusic() {
-    const [songs,setSongs]=useState ([])
-    const [search, setSearch] = useState('')
+// function StudyMusic() {
+//     const [search, setSearch] = useState('')
   
-    useEffect(() =>{
-      fetch(API)
-      .then(res=>res.json())
-      .then (data=>setSongs(data))
-    },[])
+//     useEffect(() =>{
+//       fetch(API)
+//       .then(res=>res.json())
+//       .then (data=>console.log(data))
+//     },[])
   
-    const displayedSongs = songs.filter((song) => {
-      return song.title.toLowerCase().includes(search.toLowerCase());
-    })
-
-
-    const onlyStudySongs = songs.filter(song => song.genre == 'Study')
+//     return (
+//       <main>
+//         <h1 style={{color: "red"}}>Study</h1>
+//         <Search search ={search} setSearch={setSearch}/>
+//         <MenuList />
+//       </main>
+//     );
+//   }
   
-    return (
-      <main>
-        <h1 style={{color: "red"}}>Study</h1>
-        <Search search ={search} setSearch={setSearch}/>
-        <SongList songs={onlyStudySongs}/>
-      </main>
-    );
-  }
-  
-  export default StudyMusic;
+//   export default StudyMusic;

@@ -1,24 +1,20 @@
 import { Switch } from "react-router-dom"
 import { Route } from "react-router-dom";
 import React from "react";
-// import Header from "./Header";
-import StudyMusic from "./pages/StudyMusic";
-import PartyMusic from "./pages/PartyMusic";
+import ShoppingCart from "./pages/ShoppingCart";
 import Home from "./pages/Home"
 import About from "./pages/About";
-import SongPage from "./SongPage";
-import SongCard from "./SongCard";
+import MenuItem from "./MenuItem";
+// import NavBar from "./NavBar";
 
 
 function App() {
     return (
         <div className="app">
+            {/* <NavBar /> */}
             <Switch>
-                <Route path="/studyMusic">
-                    <StudyMusic/>
-                </Route>
-                <Route path="/partyMusic">
-                    <PartyMusic/>
+                <Route path="/shoppingcart">
+                    <ShoppingCart/>
                 </Route>
                 <Route exact path="/">
                     <Home />
@@ -26,8 +22,8 @@ function App() {
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/songs/:id">
-                    <SongCard />
+                <Route path="/items/:id">
+                    <MenuItem />
                 </Route>
             </Switch>
         </div>

@@ -1,17 +1,17 @@
-import React from "react";
-import { NavLink } from "react-router-dom"
+// import React from "react";
+// import { NavLink } from "react-router-dom"
+// import { Container, Navbar as NavbarBs} from "react-bootstrap"
 
-function NavBar() {
+// function NavBar() {
     
     
-    return (
-        <nav>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/PartyMusic">PartyMusic</NavLink>
-            <NavLink to="/StudyMusic">StudyMusic</NavLink>
-        </nav>
-    );
-}
+//     return (
+//         <nav>
+//             <NavLink to="/">Home</NavLink>
+//             <NavLink to="/about">About</NavLink>
+//             <NavLink to="/shoppingcart">Shopping Cart</NavLink>
+//         </nav>
+//     );
+// }
 
-export default NavBar;
+// export default NavBar;

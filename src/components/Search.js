@@ -9,12 +9,12 @@ function Search({setSearch , search}) {
 
   return (
     <div className="searchbar">
-      <label htmlFor="search">Search Songs:</label>
+      <label htmlFor="search">Search Menu:</label>
       <input
         type="text"
         value={search}
         id="search"
-        placeholder="Type a song to search..."
+        placeholder="Type an item to search..."
         onChange={(e) => handleSearch(e.target.value)}
       />
     </div>

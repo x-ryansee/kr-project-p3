@@ -1,12 +1,12 @@
 import Header from "../Header"
-import SongPage from "../SongPage"
+import MenuPage from "../MenuPage"
 
 function Home() {
 
     return(
         <div>
             <Header />
-            <SongPage />
+            <MenuPage />
         </div>
     )
 }

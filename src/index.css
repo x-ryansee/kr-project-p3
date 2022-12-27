@@ -3,8 +3,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
@@ -15,8 +13,7 @@ code {
 body {
   /* background-color: #00008B; */
   color: rgb(255, 255, 255);
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #78a59d 0%, #5e6fbc 100%);
+  background-color: #dcdcdc;
   
   
 }
@@ -63,7 +60,7 @@ button {
 }
 .navigation{
   position: relative;
-  text-align: left;
+  text-align: right;
   padding-left: 390px;
   bottom: -26px;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
