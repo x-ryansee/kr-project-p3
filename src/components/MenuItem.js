@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 function MenuItem({id, title, image, price}) {
 
@@ -11,33 +11,33 @@ function MenuItem({id, title, image, price}) {
 
     // const quantity = getItemQuantity(id)
 
-
-    const quantity = 0
+    const [quantity, setQuantity] = useState(false)
+    let buttonText;
+    if (quantity === 0) {
+      buttonText = "Add to cart";
+    } else if (quantity === 1) {
+      buttonText = "I've been clicked once!";
+    } else {
+      buttonText = `I've been clicked ${quantity} times!`;
+    }
+  
   
     return (
       <li className="card">
         <img height="200px" src={image} alt={title} />
         <h4>{title}</h4>
         <p>Price: {price}</p>
-        <div className="mt-auto">
-          {quantity === 0 ? (
-            <button onClick="Hello!" > + Add to cart </button>
-          ) : (
             <div className="d-flex align-items-center flex-column"
               style={{ gap: ".5rem" }}>
               <div className="d-flex align-items-center"
                 style= {{ gap: ".5rem" }}>
-                <button>-</button>
+                <button onClick={() => setQuantity(quantity - 1)}>-</button>
                 <div>
                   <span className="fs-3">{quantity}</span> in cart
                 </div>
-                <button>+</button>
+                <button onClick={() => setQuantity(quantity + 1)}>+</button>
               </div>
-              <button variant="danger" size="sm">Remove</button>
             </div>
-          )}
-
-        </div>
       </li>
     );
   }
