@@ -22,7 +22,7 @@ function App() {
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/items/:id">
+                <Route path="/foods/:id">
                     <MenuItem />
                 </Route>
             </Switch>

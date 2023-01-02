@@ -1,23 +1,23 @@
 import React,{useState, useEffect} from "react";
 import MenuList from "../MenuList";
 
-const API="http://localhost:3000/items"
+const API="http://localhost:3000/foods"
 
 function ShoppingCart() {
-    const [items,setItems]=useState ([])
+    const [foods,setFoods]=useState ([])
   
     useEffect(() =>{
       fetch(API)
       .then(res=>res.json())
-      .then (data=>setItems(data))
+      .then (data=>setFoods(data))
     },[])
   
-const inCart = items.filter(item => item.quantity > 0)
+const inCart = foods.filter(foods => foods.quantity > 0)
 
     return (
       <main>
         <h1 style={{color: "blue"}}>Shopping Cart</h1>
-        <MenuList items={inCart}/>
+        <MenuList foods={inCart}/>
       </main>
     );
   }

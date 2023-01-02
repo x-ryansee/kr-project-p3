@@ -1,20 +1,20 @@
 import React from "react";
 import MenuItem from "./MenuItem";
 
-function MenuList({items}) {
+function MenuList({foods}) {
 
-    const mappedItems = items?.map((item) => {
+    const mappedFoods= foods?.map((food) => {
       return <MenuItem
-       key={item.id}
-       title={item.title}
-       image={item.image}
-       price={item.genre}
+       key={food.id}
+       title={food.title}
+       image={food.image}
+       price={food.genre}
        />
     })
 
   return (
     <div>
-        <ul className="cards">{mappedItems}</ul>
+        <ul className="cards">{mappedFoods}</ul>
     </div>
   );
 }
