@@ -210,24 +210,22 @@ root{
 
 }
 h5 {
-  color:rgb(10, 0, 0);
-  font-size: 70px;
+  color:rgb(0, 0, 0);
+  font-size: 30px;
   text-align: center;
   margin: 0px auto;
   position:relative;
   bottom:-60px;
 
 }
-h6 {
-  color:rgb(255, 255, 255);
-  font-size: 70px;
-  text-align: center;
-  margin: 0px auto;
-  position:relative;
-  bottom:-60px;
-
-}
-.about-p1 {
+/* h6 {
+  color:rgb(5, 0, 0);
+  font-weight: 200px;
+  text-align:center;
+  position:absolute;
+  bottom:200px;
+} */
+/* .about-p1 {
   color:rgb(255, 255, 255);
   font-size: 40px;
   margin: 0px auto;
@@ -237,6 +235,15 @@ h6 {
   position: absolute;
   text-align: left;
   
+} */
+p1{
+  color:rgb(5, 0, 0);
+  font-weight: 200px;
+  position:absolute;
+  text-align:center;
+  margin: 0px auto;
+  bottom:760px;
+  right:540px;
 }
 
 p2{
