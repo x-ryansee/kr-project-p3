@@ -8,7 +8,7 @@ function MenuList({foods}) {
        key={food.id}
        title={food.title}
        image={food.image}
-       price={food.genre}
+       price={food.price}
        />
     })
 

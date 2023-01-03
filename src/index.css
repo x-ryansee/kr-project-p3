@@ -44,10 +44,6 @@ header h1 {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Playfair Display", serif;
-}
-
 h2 {
   margin-bottom: 1rem;
 }
@@ -219,14 +215,6 @@ root{
   right:10px;
   top:130px;
 }
-
-/* h6 {
-  color:rgb(5, 0, 0);
-  font-weight: 200px;
-  text-align:center;
-  position:absolute;
-  bottom:200px;
-} */
 /* .about-p1 {
   color:rgb(255, 255, 255);
   font-size: 40px;

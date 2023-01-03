@@ -32,33 +32,33 @@
     },
     {
       "id": 6,
-      "title": "",
-      "image": "",
-      "price": "$12.00"
+      "title": "Chicken Burrito",
+      "image": "https://healthynibblesandbits.com/wp-content/uploads/2016/02/Sushi-Burrito-FF.jpg",
+      "price": "$14.00"
     },
     {
       "id": 7,
-      "title": "",
-      "image": "",
-      "price": "$12.00"
+      "title": "Fried Chicken Gua Bao",
+      "image": "https://www.njlux.com/media/Top-5-Asian-Fusion-Restaurants-in-Bergen-County.jpeg",
+      "price": "$10.00"
     },
     {
       "id": 8,
-      "title": "",
-      "image": "",
-      "price": "$12.00"
+      "title": "Short Rib Tacos",
+      "image": "https://www.discoverlosangeles.com/sites/default/files/images/2019-03/Kogi%20Taqueria%20Short%20Rib%20Taco%20Jakob%20Layman.JPG?width=1600&height=1200&fit=crop&quality=78&auto=webp",
+      "price": "$8.00"
     },
     {
       "id": 9,
-      "title": "",
-      "image": "",
-      "price": "$12.00"
+      "title": "Japanese Omelette Over Rice",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-655eca697f1c1a590cf401bf15e53adb.webp",
+      "price": "$15.00"
     },
     {
       "id": 10,
-      "title": "",
-      "image": "",
-      "price": "$12.00"
+      "title": "Braised Beef Banh Mi",
+      "image": "https://i.cbc.ca/1.5266309.1567194178!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/bahn-mi.jpg",
+      "price": "$11.00"
     },
     {
       "id": 11,
