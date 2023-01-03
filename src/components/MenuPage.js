@@ -12,11 +12,13 @@ function MenuPage() {
     .then(res=>res.json())
     .then (data=>setFoods(data))
   },[])
-
+  const displayedFoods = foods.filter((food) => {
+    return food.title.toLowerCase().includes(search.toLowerCase());
+  })
   return (
     <main>
       <Search search ={search} setSearch={setSearch}/>
-      <MenuList foods={foods}/>
+      <MenuList foods={displayedFoods}/>
     </main>
   );
 }
