@@ -209,15 +209,16 @@ root{
   position:absolute;
 
 }
-h5 {
-  color:rgb(0, 0, 0);
-  font-size: 30px;
-  text-align: center;
-  margin: 0px auto;
-  position:relative;
-  bottom:-60px;
 
+.H5{
+  color:rgb(0, 0, 0);
+  font-size: 45px;
+  position:absolute;
+  left:10px;
+  right:10px;
+  top:130px;
 }
+
 /* h6 {
   color:rgb(5, 0, 0);
   font-weight: 200px;
@@ -242,7 +243,7 @@ p1{
   position:absolute;
   text-align:center;
   margin: 0px auto;
-  bottom:760px;
+  bottom:680px;
   right:590px;
 }
 
@@ -250,7 +251,7 @@ p2{
   font-size: 25px;
   margin: 0px auto;
   position:relative;
-  bottom:-650px;
+  bottom:-700px;
   left: -10px;
 }
 .button{
