@@ -213,6 +213,7 @@ root{
 .H5{
   color:rgb(0, 0, 0);
   font-size: 45px;
+  text-decoration: underline;
   position:absolute;
   left:10px;
   right:10px;
@@ -237,14 +238,14 @@ root{
   text-align: left;
   
 } */
-p1{
-  color:rgb(5, 0, 0);
-  font-weight: 200px;
+.P1{
+  color:rgb(0, 0, 0);
+  font-size: 40px;
   position:absolute;
   text-align:center;
   margin: 0px auto;
   bottom:680px;
-  right:590px;
+  right:150px;
 }
 
 p2{
