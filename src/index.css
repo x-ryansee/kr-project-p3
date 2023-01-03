@@ -16,6 +16,24 @@ code {
   background-color: #afb6b9;
   
 }
+.Button{
+  text-rendering: auto;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    box-shadow: 2px 2px #0a0a0a;    
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    font: 400 11px system-ui;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
+    border-image: initial;
+
+}
 
 header h1 {
   font-weight: 600;
