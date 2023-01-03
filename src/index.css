@@ -11,10 +11,9 @@ code {
     monospace;
 }
 
-body {
+.Body {
   /* background-color: #00008B; */
-  color: rgb(162, 7, 7);
-  background-color: #1c96aea5;
+  background-color: #afb6b9;
   
 }
 
