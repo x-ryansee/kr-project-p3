@@ -1,25 +1,11 @@
 import { useState } from "react";
 
-function MenuItem({id, title, image, price}) {
+function MenuItem({ title, image, price}) {
 
-  // const {
-  //   getItemQuantity,
-  //   increaseCartQuantity,
-  //   decreaseCartQuantity,
-  //   removeFromCart,
-  //   } = useShoppingCart()
 
-    // const quantity = getItemQuantity(id)
 
     const [quantity, setQuantity] = useState(false)
-    let buttonText;
-    if (quantity === 0) {
-      buttonText = "Add to cart";
-    } else if (quantity === 1) {
-      buttonText = "I've been clicked once!";
-    } else {
-      buttonText = `I've been clicked ${quantity} times!`;
-    }
+ 
   
   
     return (

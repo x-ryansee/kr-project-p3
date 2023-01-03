@@ -13,7 +13,7 @@ function App() {
         <div className="app">
             {/* <NavBar /> */}
             <Switch>
-                <Route path="/shoppingcart">
+                <Route path="/shoppingCart">
                     <ShoppingCart/>
                 </Route>
                 <Route exact path="/">
