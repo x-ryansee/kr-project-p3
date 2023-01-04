@@ -17,7 +17,26 @@ code {
   
 }
 .Button{
-  text-rendering: auto;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    box-shadow: 2px 2px #0a0a0a;    
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    font: 400 11px system-ui;
+    padding: 2px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
+    border-image: initial;
+
+}
+.Add{
+    margin-right: -13px;
+    text-rendering: auto;
     word-spacing: normal;
     text-transform: none;
     text-indent: 0px;
@@ -32,9 +51,25 @@ code {
     border-style: solid;
     border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
     border-image: initial;
-
 }
-
+.Minus{
+  margin-left: 10px;
+  text-rendering: auto;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  box-shadow: 2px 2px #0a0a0a;    
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  font: 400 11px system-ui;
+  padding: 1px 7px 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
+  border-image: initial;
+}
 header h1 {
   font-weight: 600;
   text-align: center;

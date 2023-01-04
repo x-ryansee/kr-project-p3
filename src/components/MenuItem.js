@@ -3,7 +3,8 @@ import { useState } from "react";
 function MenuItem({ title, image, price}) {
  
 
-    const [quantity, setQuantity] = useState(false)
+    const [quantity, setQuantity] = useState(0)
+
 //  not sure if this works
   function handleAddToCart(e) {
     e.preventDefault();
@@ -11,6 +12,7 @@ function MenuItem({ title, image, price}) {
     qty.value = qty.value + 1;
     setQuantity(quantity + 1);
   }
+  
   
     return (
       <li className="card">
@@ -21,11 +23,11 @@ function MenuItem({ title, image, price}) {
               style={{ gap: ".5rem" }}>
               <div className="d-flex align-items-center"
                 style= {{ gap: ".5rem" }}>
-                <button onClick={() => setQuantity(quantity - 1)}>-</button>
+                <button className="Minus"onClick={() => { (quantity === 0) ? setQuantity(0) : setQuantity(quantity - 1) }}>-</button>
                 <div>
                   <span className="fs-3">{quantity}</span> in cart
                 </div>
-                <button onClick={() => setQuantity(quantity + 1)}>+</button>
+                <button className="Add" onClick={() => setQuantity(quantity + 1)}>+</button>
               </div>
               <button name="Add to cart"
               className="Button"
