@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 function MenuItem({ name, img_url, spice}) {
  

@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import MenuList from "../MenuList"
 
-const API="http://localhost:9393/foods/"
+const API="http://localhost:9393/reviews"
 
 function Review() {
     const [items,setItems]=useState ([])
@@ -9,17 +9,30 @@ function Review() {
     useEffect(() =>{
       fetch(API)
       .then(res=>res.json())
-      .then (data=>setItems(data))
+      .then (data=>(data))
+      
     },[])
   
-const inCart = items.filter(item => item.quantity > 0)
 
     return (
       <main>
         <h1 style={{color: "blue"}}>Reviews</h1>
-        <MenuList items={inCart}/>
+        <MenuList />
+        <form className="Form">
+      <fieldset>
+         <label className="Name">
+           <p>Name</p>
+           <input name="name"placeholder="Your name.." />
+           <p>Description</p>
+           <input name="Description" placeholder="Description.."/>
+           <p>Rating</p>
+           <input name="Rating" placeholder="Rating.."/>
+         </label>
+       </fieldset>
+       <button type="submit">Submit</button>
+      </form>
       </main>
     );
-  }
+}
   
   export default Review;

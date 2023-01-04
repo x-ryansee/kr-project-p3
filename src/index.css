@@ -16,7 +16,7 @@ code {
   background-color: #afb6b9;
   
 }
-.Button{
+/* .Button{
     text-rendering: auto;
     word-spacing: normal;
     text-transform: none;
@@ -69,7 +69,7 @@ code {
   border-style: solid;
   border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
   border-image: initial;
-}
+} */
 header h1 {
   font-weight: 600;
   text-align: center;
@@ -77,8 +77,17 @@ header h1 {
   display: inline-flex;
   
 }
-
-.searchbar {
+.Form {
+  border-style: solid;
+  border-color: rgb(3, 0, 0) rgb(7, 4, 4) rgb(0, 0, 0);
+  padding: 20px;
+}
+.Name{
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 2 ;
+}
+.searchBar {
   padding: 1rem;
   display: flex;
   flex-direction: column;
