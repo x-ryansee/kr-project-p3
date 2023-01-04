@@ -5,13 +5,11 @@ import ShoppingCart from "./pages/ShoppingCart";
 import Home from "./pages/Home"
 import About from "./pages/About";
 import MenuItem from "./MenuItem";
-// import NavBar from "./NavBar";
 
 
 function App() {
     return (
         <div className="app">
-            {/* <NavBar /> */}
             <Switch>
                 <Route path="/shoppingCart">
                     <ShoppingCart/>
