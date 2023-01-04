@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import MenuList from "../MenuList"
 
-const API="http://localhost:9393/foods"
+const API="http://localhost:9393/foods/"
 
 function Review() {
     const [items,setItems]=useState ([])
