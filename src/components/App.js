@@ -1,7 +1,7 @@
 import { Switch } from "react-router-dom"
 import { Route } from "react-router-dom";
 import React from "react";
-import Review from "./pages/Reviews";
+import Review from "./pages/Review";
 import Home from "./pages/Home"
 import About from "./pages/About";
 import MenuItem from "./MenuItem";
