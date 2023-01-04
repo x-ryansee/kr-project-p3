@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-import MenuList from "../MenuList"
+import ReviewList from "./ReviewList"
 
 const API="http://localhost:9393/reviews"
 
@@ -9,15 +9,15 @@ function Review() {
     useEffect(() =>{
       fetch(API)
       .then(res=>res.json())
-      .then (data=>(data))
-      
+      .then (data=>setItems(data))
     },[])
-  
+console.log(setItems)
+console.log(items)
+
 
     return (
       <main>
         <h1 style={{color: "blue"}}>Reviews</h1>
-        <MenuList />
         <form className="Form">
       <fieldset>
          <label className="Name">
@@ -31,7 +31,20 @@ function Review() {
        </fieldset>
        <button type="submit">Submit</button>
       </form>
+      <ReviewList items={items} />
+      <div>
+      {items ? (
+        <ul>
+          {items.map((item) => (
+            <li key={item.id}>{item.name}{item.description}{item.rating}</li>
+          ))}
+        </ul>
+      ) : (
+        'Loading...'
+      )}
+    </div>
       </main>
+      
     );
 }
   
