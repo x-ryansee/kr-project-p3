@@ -12,64 +12,10 @@ code {
 }
 
 .Body {
-  /* background-color: #00008B; */
   background-color: #afb6b9;
   
 }
-/* .Button{
-    text-rendering: auto;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    box-shadow: 2px 2px #0a0a0a;    
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    font: 400 11px system-ui;
-    padding: 2px 7px 2px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
-    border-image: initial;
 
-}
-.Add{
-    margin-right: -13px;
-    text-rendering: auto;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    box-shadow: 2px 2px #0a0a0a;    
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    font: 400 11px system-ui;
-    padding: 1px 7px 2px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
-    border-image: initial;
-}
-.Minus{
-  margin-left: 10px;
-  text-rendering: auto;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  box-shadow: 2px 2px #0a0a0a;    
-  display: inline-block;
-  text-align: center;
-  align-items: flex-start;
-  cursor: default;
-  font: 400 11px system-ui;
-  padding: 1px 7px 2px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(1, 0, 0) rgb(7, 4, 4) rgb(125, 125, 125);
-  border-image: initial;
-} */
 header h1 {
   font-weight: 600;
   text-align: center;
@@ -79,18 +25,20 @@ header h1 {
 }
 .Form {
   border-style: solid;
-  border-color: rgb(3, 0, 0) rgb(7, 4, 4) rgb(0, 0, 0);
+  border-color: rgb(3, 0, 0) rgb(7, 4, 4) #9ba2a5;
   padding: 20px;
+  position: relative;
+  bottom:-60px;
+}
+.Li{
+  position:relative;
+  bottom:-30px;
+
 }
 .Name{
   text-align: left;
   letter-spacing: 2px;
   line-height: 2 ;
-}
-.searchBar {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
 }
 
 * {
@@ -98,7 +46,10 @@ header h1 {
   padding: 0;
   box-sizing: border-box;
 }
-
+.r{
+  position:relative;
+  bottom:-54px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -114,6 +65,7 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
+  box-shadow:2px 2px 2px;
 }
 .navigation{
   position: relative;
@@ -127,6 +79,8 @@ button {
   font-size:30px;
   border-radius: 10px;
 }
+
+
 button.primary {
   background-color: var(--green);
   color: white;
@@ -138,10 +92,10 @@ button.primary {
 }
 
 header h1 {
-  font-size: 5em;
-  font-weight: 900;
+  font-size: 70px;
   position: relative;
   text-align: absolute;
+  bottom:-20px;
   padding: 0.5rem 0;
 }
 /* <<<<<<< HEAD

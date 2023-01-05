@@ -16,7 +16,7 @@ console.log(items)
 
     return (
       <main>
-      <h1 style={{color: "blue"}}>Reviews</h1>
+      <h1 className="r" style={{color: "blue"}}>Reviews</h1>
       <form className="Form">
     <fieldset>
        <label className="Name">
@@ -33,9 +33,9 @@ console.log(items)
     <ReviewList items={items} />
     <div>
     {items ? (
-      <li>
+      <li className="Li">
         {items.map((item) => (
-          <li key={item.id}>{item.name}{item.description}{item.rating}</li>
+          <li  key={item.id}>{item.name}{item.description}{item.rating}</li>
         ))}
       </li>
     ) : (
@@ -43,8 +43,8 @@ console.log(items)
     )}
   </div>
     </main>
-    
-  );
+
+);
 }
   
   export default Review;
