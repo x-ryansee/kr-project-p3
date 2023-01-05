@@ -3,7 +3,8 @@ function ReviewItem ({ name, description, rating}) {
  
   
     return (
-      <li className="card">
+      <li 
+      >
         <h4>{name}</h4>
         <h4>{description}</h4>
         <h4>{rating}</h4>

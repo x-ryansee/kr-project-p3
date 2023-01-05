@@ -9,7 +9,7 @@ function Search({setSearch , search}) {
 
   return (
     <div className="searchBar">
-      <label className="search">Search Menu:</label>
+      <label className="Search">Search Menu:</label>
       <input
         type="text"
         value={search}
