@@ -35,7 +35,7 @@ console.log(items)
     {items ? (
       <ol className="Ol">
         {items.map((item) => (
-          <li  key={item.id}>  {item.name} {item.description}  {item.rating}</li>
+          <li key={item.id}>  {item.name}: {item.description}  {item.rating}</li>
         ))}
       </ol>
     ) : (
