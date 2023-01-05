@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin-left:auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -23,10 +23,8 @@ form{
 
  position: relative;
  text-align: center;
- left:-20px;
- top: -29px;
+ margin-bottom: 50px;
  border-style: solid;
-
 }
 
 header h1 {
@@ -34,6 +32,7 @@ header h1 {
   text-align: center;
   padding: 0.5rem 0;
   display: inline-flex;
+  top: -20px;
   
 }
 
@@ -48,7 +47,8 @@ header h1 {
 }
 
 * {
-  margin: 0;
+  margin-left:auto;
+  margin-right:auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -58,11 +58,12 @@ header h1 {
   left:-14px;
   font-size: 55px;
 }
-* {
-  margin: 0;
+/* * {
+  margin-left:auto;
+  margin-right:auto;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 .p{
   position:relative;
   top:41px;
@@ -70,9 +71,6 @@ header h1 {
   padding:10px
 }
 
-h2 {
-  margin-bottom: 1rem;
-}
 h3{
   text-align: left;
   position: relative;
@@ -115,7 +113,8 @@ button.primary {
 }
 
 .app {
-  margin: 0 auto;
+  margin-left:auto;
+  margin-right:auto;
   max-width: 1200px;
 }
 
@@ -177,6 +176,7 @@ input {
   justify-content: center;
   position:relative;
   left:-69px;
+  top:-20px;
 }
 .Search{
   position:relative;
@@ -189,18 +189,15 @@ input:focus {
   border-bottom: 2px solid var(--green);
 }
 
-/* .cards {
-  background-color: #afb6b9;
-  list-style: none;
-} */
 
 .card img {
   width: 100%;
 }
 .reviewCard{
   width: calc(20% - 2rem);
-    margin: 1rem;
-    box-shadow: 5px 6px 4px rgb(67, 67, 67);
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 5px 6px 4px rgb(67, 67, 67);
 }
 
   .cards {
@@ -211,24 +208,13 @@ input:focus {
 
 .card {
     width: calc(20% - 2rem);
-    margin: 1rem;
+    margin-left:auto;
+    margin-right:auto;    
     box-shadow: 5px 6px 4px rgb(67, 67, 67);
   }
 
 
 /* <<<<<<< HEAD */
-.navigation {
-  margin-top: 50px;
-  margin: auto;
-  font-size: larger;
-  font-weight: 200;
-}
-/* ======= */
-/* .root{
-  text-align: center;
-  position:absolute;
-
-} */
 
 .H5{
   color:rgb(0, 0, 0);
@@ -250,7 +236,8 @@ input:focus {
 
 .P2{
   font-size: 25px;
-  margin: 0px auto;
+  margin-left:auto;
+  margin-right:auto;
   position:relative;
   left: -100px;
   bottom:-700px;  
@@ -272,6 +259,6 @@ button{
 .Submit{
   position: relative;
   top:20px;
-  left:-140px ;
+  left: 23px; 
 }
 
