@@ -19,7 +19,11 @@ code {
   position: relative;
   top: -39px;
 }
-
+form{
+ position: relative;
+ text-align: center;
+ left:-29px;
+}
 header h1 {
   font-weight: 600;
   text-align: center;
@@ -27,29 +31,13 @@ header h1 {
   display: inline-flex;
   
 }
-.Form {
-  border-style: solid;
-  border-color: rgb(0, 0, 0) rgb(0, 0, 0) #000000;
-  padding: 20px;
-  position: relative;
-  bottom:-60px;
-}
+
 .review-container{
   position: relative;
   top: 90px;
   padding: 20px;
 }
-.Ol{
-  position:relative;
-  bottom:-55px;
-  font-size: 19.1px;
-  text-indent: 50px;
-  word-spacing:4.5px;
-  text-align: left;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 0.9rem;
-}
+
 
 .about{
   text-align: justify;
@@ -139,30 +127,34 @@ main {
 
 
 label {
+  
   font-weight: bold;
-  display: block;
+  position: relative;
+  
 }
 .stuff{
   position: relative;
- text-align: left;
+ text-align: center;
+
 }
 /* Search bar  */
 input {
-  padding: 0.25rem;
-  border: none;
-  font-family: inherit;
-  font-size: 1.2em;
-  border-bottom: 2px solid gray;
-  transition: all 0.2s;
-  width: 100%;
-  border-radius:23px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  width: 500px;
+  left:390px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 .searchBar {
   padding: 1rem;
   display: flex;
   flex-direction: column;
 }
-
 
 input:focus {
   outline: none;
@@ -236,6 +228,13 @@ button{
   padding-left: 15px;
   position: relative;
   text-align: center;
+}
+.button{
+  color: rgb(11, 0, 0);
+  padding-left: 15px;
+  position: relative;
+  text-align: center;
+  right:40px;
 }
 .Submit{
   position: relative;
