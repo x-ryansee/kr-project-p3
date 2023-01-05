@@ -72,7 +72,7 @@ console.log(items)
           e.preventDefault();
           updateReview(currentReview.id, currentReview);
           }}>
-              <label className="stuff">Name:</label>
+              <label>Name:</label>
               <input  type="text" name="name" value={currentReview.name} onChange={e => setCurrentReview({ ...currentReview, name: e.target.value })} />
               <label className="P">Description:</label>
               <input type="text" name="description" value={currentReview.description} onChange={e => setCurrentReview({ ...currentReview, description: e.target.value })} />
@@ -103,9 +103,19 @@ console.log(items)
           </form>
           </div>
           )}
-          <div>
+          <div style={{
+            borderWidth: '3px',
+            borderStyle: 'solid',
+            borderColor: 'black',
+            padding: '50px'
+          }}>
           {items.map(review => (
-          <div key={review.id}>
+          <div  style={{
+            borderWidth: '2px',
+            borderStyle: 'solid',
+            borderColor: 'black',
+            padding: '50px'
+          }} key={review.id}>
           <h3>{review.name}</h3>
           <p>{review.description}</p>
           <p>{review.rating}</p>
