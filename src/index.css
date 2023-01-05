@@ -42,6 +42,9 @@ header h1 {
   grid-gap: 0.9rem;
 }
 
+.about{
+  text-align: justify;
+}
 .Name{
   text-align: left;
   letter-spacing: 2px;
@@ -148,7 +151,7 @@ input {
   width: 100%;
   border-radius:23px;
 }
-.searchbar {
+.searchBar {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -201,6 +204,7 @@ input:focus {
   font-size: 45px;
   text-decoration: underline;
   position:absolute;
+  text-align: center;
   left:10px;
   right:10px;
   top:130px;
@@ -208,19 +212,17 @@ input:focus {
 
 .P1{
   color:rgb(0, 0, 0);
-  font-size: 40px;
-  position:relative;;
-  text-align:center;
-  margin:auto;
+  font-size: 30px;
+  position:relative;
   top:200px;
 }
 
-p2{
+.P2{
   font-size: 25px;
   margin: 0px auto;
   position:relative;
-  left: -270px;
-  bottom:-700px;
+  left: -100px;
+  bottom:-700px;  
   
 }
 .button{
