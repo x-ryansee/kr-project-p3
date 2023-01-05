@@ -15,6 +15,10 @@ code {
   background-color: #afb6b9;
   
 }
+.r{
+  position: relative;
+  top: -39px;
+}
 
 header h1 {
   font-weight: 600;
@@ -29,6 +33,11 @@ header h1 {
   padding: 20px;
   position: relative;
   bottom:-60px;
+}
+.review-container{
+  position: relative;
+  top: 90px;
+  padding: 20px;
 }
 .Ol{
   position:relative;
@@ -118,12 +127,6 @@ header h1 {
     font:courier;
 }
 
-label{
-  text-align: left;
- position: relative;
- bottom: 10px;
- font-size: 20px;
-}
 .logo {
   font-size: 1.25em;
   padding-left: 0.5rem;
@@ -139,7 +142,10 @@ label {
   font-weight: bold;
   display: block;
 }
-
+.stuff{
+  position: relative;
+ text-align: left;
+}
 /* Search bar  */
 input {
   padding: 0.25rem;
@@ -225,10 +231,13 @@ input:focus {
   bottom:-700px;  
   
 }
-.button{
+button{
   color: rgb(11, 0, 0);
   padding-left: 15px;
   position: relative;
-  left: -50px;
+  text-align: center;
 }
-
+.Submit{
+  position: relative;
+  top:20px;
+}
