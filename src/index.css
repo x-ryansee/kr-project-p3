@@ -161,14 +161,9 @@ input:focus {
 }
 
 /* .cards {
+  background-color: #afb6b9;
   list-style: none;
 } */
-
-.card {
-  margin: 1rem;
-  box-shadow: 5px 6px 4px rgb(67, 67, 67);
-
-}
 
 .card img {
   width: 100%;
@@ -182,6 +177,8 @@ input:focus {
 
   .card {
     width: calc(20% - 2rem);
+    margin: 1rem;
+    box-shadow: 5px 6px 4px rgb(67, 67, 67);
   }
 
 
