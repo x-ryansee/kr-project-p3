@@ -5,9 +5,10 @@ import ReviewList from "./ReviewList"
 const API="http://localhost:9393/reviews"
 
 function Review() {
+  const initialReview = { id: null, name: '', description: '', rating: "" }
   const [items, setItems] = useState([]);
   const [editing, setEditing] = useState(false);
-  const [currentReview, setCurrentReview] = useState({ id: null, name: '', description: '', rating: "" });
+  const [currentReview, setCurrentReview] = useState(initialReview);
 
   const addReview = (review) => {
     fetch('http://localhost:9393/reviews', {
@@ -31,6 +32,11 @@ function Review() {
       setItems(remainingReviews);
       });
       };
+
+      const editReviewForm = (review) => {
+        setEditing(true);
+        setCurrentReview(review);
+      }
 const editReview = (review) => {
   fetch(`http://localhost:9393/reviews/${review.id}`, {
   method: 'PATCH',
@@ -41,17 +47,12 @@ const editReview = (review) => {
   })
   .then((response) => response.json())
   .then((updatedReview) => {
-  const updatedReviews = items.map((r) =>
-  r.id === updatedReview.id ? updatedReview : r
-  );
-  setItems(updatedReviews);
-  });
-  };
+    setEditing(false);
+    setItems(items.map(review => (review.id === updatedReview.id ? updatedReview : review)));
+    setCurrentReview(initialReview)
+  })}
 
-const updateReview = (id, updatedReview) => {
-  setEditing(false);
-  setItems(items.map(review => (review.id === id ? updatedReview : review)));
-}
+
 
   useEffect(() =>{
     fetch(API)
@@ -70,7 +71,7 @@ console.log(items)
         <div>
           <form  onSubmit={e => {
           e.preventDefault();
-          updateReview(currentReview.id, currentReview);
+          editReview(currentReview);
           }}>
               <label>Name:</label>
               <input  type="text" name="name" value={currentReview.name} onChange={e => setCurrentReview({ ...currentReview, name: e.target.value })} />
@@ -120,7 +121,7 @@ console.log(items)
           <p>{review.description}</p>
           <p>{review.rating}</p>
           <button onClick={() => deleteReview(review.id)}>Delete</button>
-          <button onClick={() => editReview(review)}>Edit</button>
+          <button onClick={() => editReviewForm(review)}>Edit</button>
           </div>
           ))}
           </div>
